@@ -163,6 +163,7 @@ pageEncoding="ISO-8859-1"%>
         <li><a href="index">Home</a></li>
         <li><a href="aboutus">About us</a></li>
          <li><a href="contactus">Contact Us</a></li>
+             <li><a href="product">All Products</a></li>
         </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="login">Login</a></li>
@@ -186,15 +187,15 @@ pageEncoding="ISO-8859-1"%>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="images/image1.jpg" alt="no image"  style="width:328px;height:328px;">
+      <img src="resources/images/image1.jpg"  alt="no image"  style="width:328px;height:328px;">
     </div>
 
     <div class="item">
-      <img src="images/image2.jpg" alt="no image"  style="width:328px;height:328px;">
+      <img src="resources/images/image2.jpg"  alt="no image"  style="width:328px;height:328px;">
     </div>
 
     <div class="item">
-      <img src="images/image3.jpg" alt="no image"  style="width:328px;height:328px;">
+      <img src="resources/images/image3.jpg"  alt="no image"  style="width:328px;height:328px;">
     </div>
 
  
@@ -212,12 +213,15 @@ pageEncoding="ISO-8859-1"%>
   
    
 </div>
- 
+ <br>
+  <br>
+   <br>
+    <br>
  <div >
-    <div class="carousel-inner" role="listbox">
-      <img src="images/image1.jpg" alt="no image"  style="width:328px;height:328px;">
-      <img src="images/image2.jpg" alt="no image"  style="width:328px;height:328px;">
-      <img src="images/image3.jpg" alt="no image"  style="width:328px;height:328px;">
+    <div class="carousel-inner" role="listbox" align="center" style="background-color:green">
+     <a href="product?item=guitar" ><img src="resources/images/image1.jpg" alt="no image" class="img-circle" style="width:228px;height:228px;"></a> 
+      <a href="product?item=violin" ><img src="resources/images/image2.jpg" alt="no image" class="img-circle" style="width:228px;height:228px;"></a>
+      <a href="product?item=piano" ><img src="resources/images/image3.jpg" alt="no image" class="img-circle" style="width:228px;height:228px;"></a>
  </div>
   </div>
   <nav class="navbar navbar-default navbar-fixed-bottom">

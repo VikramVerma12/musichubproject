@@ -172,6 +172,7 @@
         <li><a href="index">Home</a></li>
         <li><a href="aboutus">About us</a></li>
          <li><a href="contactus">Contact Us</a></li>
+             <li><a href="product">All Products</a></li>
         </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="login">Login</a></li>

@@ -45,4 +45,10 @@ public class helloworldcontroller {
 	ModelAndView mv = new ModelAndView("aboutus");
 		return mv;
 	}
+	@RequestMapping("/product")
+	public ModelAndView product()
+	{
+	ModelAndView mv = new ModelAndView("product");
+		return mv;
+	}
 }

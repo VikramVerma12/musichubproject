@@ -9,9 +9,9 @@
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+  <script src="resources/js/jquery-1.11.1.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
   <style>
   body {
       font: 400 15px/1.8 Lato, sans-serif;
@@ -161,6 +161,7 @@
         <li><a href="index">Home</a></li>
         <li><a href="aboutus">About us</a></li>
          <li><a href="contactus">Contact Us</a></li>
+         <li><a href="product">All Products</a></li>
         </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="login">Login</a></li>
