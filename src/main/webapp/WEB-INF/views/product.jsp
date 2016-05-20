@@ -5,14 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-<script type="text/javascript" src="resources/js/product.js"></script>
+<!-- <script type="text/javascript" src="resources/js/product.js"></script> -->
 <script type="text/javascript" src = "resources/js/angular.min.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+ <!--   <script src="resources/js/jquery-1.11.1.min.js"></script>-->
+    <script src="resources/js/bootstrap.min.js"></script>
     <style>
      body {
       font: 400 15px/1.8 Lato, sans-serif;
@@ -152,7 +152,7 @@ var myapp = angular.module('myapp',[]);
 myapp.controller
 ('myctrl',function($scope)
 {
-	$scope.data=product_var;yh
+	$scope.data=${data};
 	});
 </script>
 
