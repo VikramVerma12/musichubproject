@@ -152,7 +152,7 @@ var myapp = angular.module('myapp',[]);
 myapp.controller
 ('myctrl',function($scope)
 {
-	$scope.data=product_var;
+	$scope.data=product_var;yh
 	});
 </script>
 
